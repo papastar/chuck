@@ -1,11 +1,11 @@
-package com.readystatesoftware.chuck.internal.support;
+package com.papa.chuck.internal.support;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import com.readystatesoftware.chuck.ChuckInterceptor;
-import com.readystatesoftware.chuck.internal.data.ChuckContentProvider;
+import com.papa.chuck.internal.data.ChuckContentProvider;
+import com.papa.chuck.ChuckInterceptor;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;

@@ -1,10 +1,10 @@
-package com.readystatesoftware.chuck.internal.support;
+package com.papa.chuck.internal.support;
 
 import android.app.IntentService;
 import android.content.Intent;
 import android.support.annotation.Nullable;
 
-import com.readystatesoftware.chuck.internal.data.ChuckContentProvider;
+import com.papa.chuck.internal.data.ChuckContentProvider;
 
 public class ClearTransactionsService extends IntentService {
 

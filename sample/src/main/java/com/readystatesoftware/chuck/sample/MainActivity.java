@@ -22,8 +22,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.google.gson.JsonObject;
-import com.readystatesoftware.chuck.Chuck;
-import com.readystatesoftware.chuck.ChuckInterceptor;
+import com.papa.chuck.Chuck;
+import com.papa.chuck.ChuckInterceptor;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.support;
+package com.papa.chuck.internal.support;
 
 import android.content.Context;
 import android.text.TextUtils;
 
+import com.papa.chuck.internal.data.HttpTransaction;
 import com.readystatesoftware.chuck.R;
-import com.readystatesoftware.chuck.internal.data.HttpHeader;
-import com.readystatesoftware.chuck.internal.data.HttpTransaction;
+import com.papa.chuck.internal.data.HttpHeader;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 

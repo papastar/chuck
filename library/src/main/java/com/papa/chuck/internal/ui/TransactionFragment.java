@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.ui;
+package com.papa.chuck.internal.ui;
 
-import com.readystatesoftware.chuck.internal.data.HttpTransaction;
+import com.papa.chuck.internal.data.HttpTransaction;
 
 interface TransactionFragment {
     void transactionUpdated(HttpTransaction transaction);

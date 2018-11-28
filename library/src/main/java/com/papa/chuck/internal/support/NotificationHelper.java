@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.support;
+package com.papa.chuck.internal.support;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -26,10 +26,10 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.LongSparseArray;
 
-import com.readystatesoftware.chuck.Chuck;
+import com.papa.chuck.internal.data.HttpTransaction;
+import com.papa.chuck.Chuck;
 import com.readystatesoftware.chuck.R;
-import com.readystatesoftware.chuck.internal.data.HttpTransaction;
-import com.readystatesoftware.chuck.internal.ui.BaseChuckActivity;
+import com.papa.chuck.internal.ui.BaseChuckActivity;
 
 import java.lang.reflect.Method;
 

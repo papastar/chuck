@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.ui;
+package com.papa.chuck.internal.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.readystatesoftware.chuck.internal.support.NotificationHelper;
+import com.papa.chuck.internal.support.NotificationHelper;
 
 public abstract class BaseChuckActivity extends AppCompatActivity {
 

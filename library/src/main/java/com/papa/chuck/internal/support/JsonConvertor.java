@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.support;
+package com.papa.chuck.internal.support;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;

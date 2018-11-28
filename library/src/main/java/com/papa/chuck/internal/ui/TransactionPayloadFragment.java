@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.ui;
+package com.papa.chuck.internal.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -25,8 +25,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.papa.chuck.internal.data.HttpTransaction;
 import com.readystatesoftware.chuck.R;
-import com.readystatesoftware.chuck.internal.data.HttpTransaction;
 
 public class TransactionPayloadFragment extends Fragment implements TransactionFragment {
 

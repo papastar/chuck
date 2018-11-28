@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.ui;
+package com.papa.chuck.internal.ui;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -26,10 +26,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.papa.chuck.internal.data.HttpTransaction;
+import com.papa.chuck.internal.data.LocalCupboard;
 import com.readystatesoftware.chuck.R;
-import com.readystatesoftware.chuck.internal.data.HttpTransaction;
-import com.readystatesoftware.chuck.internal.data.LocalCupboard;
-import com.readystatesoftware.chuck.internal.ui.TransactionListFragment.OnListFragmentInteractionListener;
+import com.papa.chuck.internal.ui.TransactionListFragment.OnListFragmentInteractionListener;
 
 class TransactionAdapter extends RecyclerView.Adapter<TransactionAdapter.ViewHolder> {
 

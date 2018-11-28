@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.ui;
+package com.papa.chuck.internal.ui;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -35,11 +35,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.papa.chuck.internal.data.ChuckContentProvider;
+import com.papa.chuck.internal.data.HttpTransaction;
+import com.papa.chuck.internal.support.NotificationHelper;
+import com.papa.chuck.internal.support.SQLiteUtils;
 import com.readystatesoftware.chuck.R;
-import com.readystatesoftware.chuck.internal.data.ChuckContentProvider;
-import com.readystatesoftware.chuck.internal.data.HttpTransaction;
-import com.readystatesoftware.chuck.internal.support.NotificationHelper;
-import com.readystatesoftware.chuck.internal.support.SQLiteUtils;
 
 public class TransactionListFragment extends Fragment implements
         SearchView.OnQueryTextListener, LoaderManager.LoaderCallbacks<Cursor> {

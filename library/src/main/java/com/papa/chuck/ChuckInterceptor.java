@@ -13,18 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck;
+package com.papa.chuck;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
-import com.readystatesoftware.chuck.internal.data.ChuckContentProvider;
-import com.readystatesoftware.chuck.internal.data.HttpTransaction;
-import com.readystatesoftware.chuck.internal.data.LocalCupboard;
-import com.readystatesoftware.chuck.internal.support.NotificationHelper;
-import com.readystatesoftware.chuck.internal.support.RetentionManager;
+import com.papa.chuck.internal.data.ChuckContentProvider;
+import com.papa.chuck.internal.data.HttpTransaction;
+import com.papa.chuck.internal.data.LocalCupboard;
+import com.papa.chuck.internal.support.NotificationHelper;
+import com.papa.chuck.internal.support.RetentionManager;
+import com.readystatesoftware.chuck.R;
 
 import java.io.EOFException;
 import java.io.IOException;
