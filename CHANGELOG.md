@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+Version 1.1.1 *(2018-11-28)*
+----------------------------
+
+ * Fix: Supports apps targeting Android O (API 26).
+
 Version 1.1.0 *(2017-08-06)*
 ----------------------------
 
