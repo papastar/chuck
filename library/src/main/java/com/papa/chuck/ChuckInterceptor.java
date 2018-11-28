@@ -178,8 +178,10 @@ public final class ChuckInterceptor implements Interceptor {
         long tookMs = TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - startNs);
 
         ResponseBody responseBody = response.body();
-
-        transaction.setRequestHeaders(response.request().headers()); // includes headers added later in the chain
+        if(response.networkResponse()!=null){
+            transaction.setRequestHeaders(response.networkResponse().request().headers());
+        }
+        //transaction.setRequestHeaders(response.request().headers()); // includes headers added later in the chain
         transaction.setResponseDate(new Date());
         transaction.setTookMs(tookMs);
         transaction.setProtocol(response.protocol().toString());

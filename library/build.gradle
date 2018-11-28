@@ -1,13 +1,15 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+apply from: rootProject.file("secret.gradle")
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
         consumerProguardFiles 'proguard-rules.pro'
     }
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
@@ -17,4 +19,18 @@ dependencies {
     compile "com.android.support:design:$supportLibVersion"
 }
 
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
+
+
+
+//发布到 Bintray
+publish {
+    userOrg = 'papa'            // bintray.com用户名
+    groupId = 'com.papa.chuck' // jcenter上的路径
+    artifactId = 'library'    // 项目名称
+    publishVersion = rootProject.ext.publish_version      // 版本号
+    desc = 'fork with chuck and add some feature' // 描述，不重要
+    website = 'https://github.com/papastar/chuck'  // 网站，不重要；可以填写GitHub中的项目地址
+
+    bintrayUser = bintray_user // bintray.com的用户名
+    bintrayKey = bintray_key   // bintray.com的API key
+}
