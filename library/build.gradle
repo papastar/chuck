@@ -28,8 +28,8 @@ publish {
     groupId = 'com.papa.chuck' // jcenter上的路径
     artifactId = 'library'    // 项目名称
     publishVersion = rootProject.ext.publish_version      // 版本号
-    desc = 'fork with chuck and add some feature' // 描述，不重要
-    website = 'https://github.com/papastar/chuck'  // 网站，不重要；可以填写GitHub中的项目地址
+    desc = 'fork with com.readystatesoftware.chuck and add some feature' // 描述，不重要
+    website = 'https://github.com/papastar/com.readystatesoftware.chuck'  // 网站，不重要；可以填写GitHub中的项目地址
 
     bintrayUser = bintray_user // bintray.com的用户名
     bintrayKey = bintray_key   // bintray.com的API key
