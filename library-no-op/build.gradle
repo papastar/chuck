@@ -12,7 +12,7 @@ android {
 }
 
 dependencies {
-    compile "com.squareup.okhttp3:okhttp:$okhttp3Version"
+    api "com.squareup.okhttp3:okhttp:$okhttp3Version"
 }
 
 
