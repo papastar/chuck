@@ -13,10 +13,10 @@ android {
 }
 
 dependencies {
-    api 'com.google.code.gson:gson:2.8.0'
-    api "com.squareup.okhttp3:okhttp:$okhttp3Version"
-    api 'nl.qbusict:cupboard:2.2.0'
-    api "com.android.support:design:$supportLibVersion"
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation "com.squareup.okhttp3:okhttp:$okhttp3Version"
+    implementation 'nl.qbusict:cupboard:2.2.0'
+    implementation "com.android.support:design:$supportLibVersion"
 }
 
 
