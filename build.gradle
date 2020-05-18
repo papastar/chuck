@@ -10,7 +10,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.android.tools.build:gradle:3.2.1'
         classpath 'com.novoda:bintray-release:0.8.0'
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -19,8 +19,6 @@ buildscript {
 }
 
 allprojects {
-    version = VERSION_NAME
-    group = GROUP
 
     repositories {
         jcenter()
@@ -49,8 +47,8 @@ task clean(type: Delete) {
 
 ext {
     minSdkVersion = 16
-    targetSdkVersion = 26
-    compileSdkVersion = 26
+    targetSdkVersion = 28
+    compileSdkVersion = 28
     buildToolsVersion = '26.0.1'
     versionCode = 1
     versionName = "1.0.1"
